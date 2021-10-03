@@ -1,0 +1,99 @@
+nav
+{
+  top: 0;
+  position: sticky;
+  z-index: 10;
+  width: 100%;
+  background-color: black;
+  font-size: 20px;
+}
+nav #meniu
+{
+  text-align: center;
+  padding: 0;
+}
+nav #meniu li a
+{
+  text-decoration: none;
+  color: white;
+}
+nav #meniu > li
+{
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  padding: 10px 0;
+  border:1px solid black;
+  background-color: black
+}
+nav #meniu li a:hover
+{
+  color: var(--culoare5);
+}
+nav ul ul
+{
+  display: none;
+  padding: 0;
+  width: 100%;
+}
+nav #meniu #casa #submeniu li
+{
+  display: block;
+  background-color: black;
+  border:1px solid black;
+  left: -1px;
+}
+nav #casa #submeniu
+{
+  display: block;
+  transform: scale(0);
+  transform-origin: 50% 0;
+  transition: transform 0.5s ease;
+  position: absolute;
+
+}
+nav #casa:hover #submeniu
+{
+  transform: scale(1);
+}
+nav #casa #submeniu: li:hover
+{
+  color:var(--culoare5);
+}
+i
+{
+  color:white;
+}
+
+#meniu #casa span
+{
+  display: inline-block;
+  visibility: hidden;
+  text-decoration: none;
+  opacity: 0;
+}
+#meniu #casa:hover i
+{
+  color: var(--culoare5);
+}
+#meniu #casa:hover span
+{
+  visibility: visible;
+  opacity: 1;
+  color: var(--culoare5);
+}
+#hamburger
+{
+  display: none;
+  height: 2rem;
+}
+#ch-menu
+{
+  display: none;
+}
+#hamburger img
+{
+  height:100%;
+  width:auto;
+}

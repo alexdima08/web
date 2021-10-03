@@ -1,0 +1,76 @@
+@media screen and (min-width: 320px) and (max-width: 500px)
+{
+html
+{
+  font-size:11px;
+}
+nav
+{
+  margin-top:15px;
+}
+nav span
+{
+  font-size: 11px;
+}
+nav a
+{
+  font-size: 11px;
+}
+h1
+{
+  text-align: center;
+}
+#grid
+{
+  display: grid;
+  grid-template-areas: "zona1"
+                       "zona1"
+                       "zona2"
+                       "zona2"
+                       "zona3"
+                       "zona4"
+                       "zona5"
+                       "zona6"
+                       "zona7"
+                       "zona8";
+   grid-gap:1rem;
+   margin: 0 10px 0 10px;
+}
+#galerie-statica
+{
+  display:block;
+}
+#galerie_a
+{
+  display:none;
+}
+section
+{
+  margin-top:1rem;
+}
+#videouri
+{
+  width:60%;
+}
+#location
+{
+  width: 100%;
+}
+.flexbox > div > a
+{
+  font-size: 18px;
+}
+#banner
+{
+  display: none;
+}
+table
+{
+  margin: auto;
+  width: 130%;
+}
+.mobile
+{
+  overflow-x: scroll;
+}
+}

@@ -1,0 +1,69 @@
+@media screen and (min-width: 320px) and (max-width: 500px)
+{
+#hamburger
+{
+  display:block;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  left: 0;
+}
+#meniu
+{
+  display:none;
+  position:absolute;
+  width:100%;
+  top: 5px;
+
+}
+
+#ch-menu
+{
+  display: inline-block;
+  position: absolute;
+  width: 5vw;
+  height: 4vh;
+  cursor: pointer;
+  left:0;
+  opacity: 0;
+}
+#ch-menu:checked ~ #meniu
+{
+  display: block;
+  /* animation-name:animatie_meniu;
+  animation-timing-function:linear;
+  animation-duration: 10s;
+  animation-fill-mode:forwards; */
+  mask-image: linear-gradient(white,transparent);
+}
+@keyframes animatie_meniu
+{
+  from
+  {
+    mask-position: 0% 0;
+  }
+  to
+  {
+    mask-position: 100% 0;
+  }
+}
+nav #meniu li
+{
+  width:100%;
+  display: block;
+  position: relative;
+}
+#submeniu
+{
+  overflow: hidden;
+  max-height: 0;
+  z-index: 3;
+}
+
+nav #meniu #casa:hover #submeniu
+{
+  display: block;
+  max-height: 30vh;
+  /* transition: all 0.5s ease-out; */
+}
+}

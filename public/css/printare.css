@@ -1,0 +1,88 @@
+@media print
+{
+  #banner
+  {
+    position: absolute;
+    bottom: 85%;
+    left:45%;
+    margin-right: 0;
+    width: 50%;
+    border: 10px double black;
+    display: block;
+    animation: none !important;
+  }
+  #inceput
+  {
+    text-align: center;
+    top:50% !important;
+    margin-top: 50%;
+  }
+  /* #zona8
+  {
+    page-break-before: always;
+    page-break-inside: avoid;
+  } */
+  #grid
+  {
+    display: block;
+  }
+  nav
+  {
+    page-break-after: always;
+    page-break-inside: avoid;
+    width: 100%;
+    position: relative;
+    top: 100px;
+  }
+  nav ul
+  {
+    text-align: center;
+    list-style-type: none;
+  }
+  nav ul ul
+  {
+    display:visible;
+    text-align: center;
+    list-style-type: none;
+  }
+  a
+  {
+    text-decoration: none;
+    color: black;
+  }
+  #zona2
+  {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+  #zona7
+  {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+  #buton_inceput,#galerie_a,#galerie_s,hr,#locatie,#container-video
+  {
+    display: none;
+  }
+  }
+  #watermark
+  {
+   display: block;
+   position:fixed;
+   margin-left: 40%;
+   margin-bottom: 50%;
+   bottom:5px;
+   width: 60%;
+   height: 10%;
+   opacity:0.3;
+   z-index:99;
+   color:black;
+   font-size: 30px;
+  }
+  #inceput
+  {
+    position: relative;
+    left:50%
+    top:50%;
+  }
+}

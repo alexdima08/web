@@ -1,0 +1,16 @@
+<h3>Galerie Statica</h3>
+<div id="galerie-statica" >
+<% var nr=0;%>
+<%  for(let imag of locals.imagini){ %>
+  <% if(imag.timp_curent >= imag.timp_inceput && imag.timp_curent < imag.timp_sfarsit && nr<10) { %>
+
+    <figure id="figura">
+      <picture>
+        <img src="<%- imag.mare %>" alt="text" id="poza">
+      </picture>
+      <figcaption><%- imag.titlu %></figcaption>
+    </figure>
+    <% nr++; %>
+  <% } %>
+<% } %>
+</div>

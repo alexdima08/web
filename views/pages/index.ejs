@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partial/head') %>
+</head>
+<body>
+<header>
+  <%- include('../partial/header') %>
+</header>
+<hr>
+<%- include('../partial/nav') %>
+<main>
+
+
+<div id ="grid" >
+
+  <section id="zona1">
+    <h2 id= "Prezentareaclinicii"><i class="fas fa-heartbeat fa-spin"></i> Prezentarea Clinicii <i class="fas fa-heartbeat fa-spin"></i></h2>
+    <p><b>Clinica medicala</b> <b>CareHelp+</b> este o noua clinica care incearca sa foloseasca resurse cat mai eficiente pentru <b>tratarea</b> tuturor clientilor
+    nostrii.</p>
+    <p>Credem cu tărie că fiecare om este un individ unic iar consultul trebuie să se desfășoare plenar,
+    luând în considerație atât  planul fizic, cât și cel psihic și emoțional.</p>
+    <p>
+    <q>Pacientul se află în centrul preocupărilor noastre.</q>
+    </p>
+    <q>Vindecarea se face de sus în jos, dinăuntru în afară.</q>
+
+    <!-- vtt -->
+    <div id="container-video">
+          <img class="." src="public/imagini/galerie-statica/stetoscop.jpg" alt="background">
+          <div id="centrare-video">
+              <div id="clip-video">
+                  <div id="stil-video">
+                      <video width="320" height="240"  playsinline autoplay controls loop muted>
+                          <source src="public/video/video.mp4" type="video/mp4">
+                          <source src="public/video/video(varianta alternativa).ogv" type="video/ogv">
+                          <track default src="public/video/video.vtt" kind="captions" srclang="ro" label="romana">
+                          <track src="public/video/video_eng.vtt" kind="captions" srclang="en" label="engleza">
+                      </video>
+                  </div>
+              </div>
+          </div>
+    </div>
+  </section>
+  <section id="zona2">
+
+
+
+    <button id="btn1" type="button">orar1</button>
+    <button id="btn2" type="button">orar2</button>
+    <button id="btn3" type="button">orar3</button>
+    <section id="orar">
+        <h2 style="text-align:center;">Orar</h2>
+        <div class="mobile">
+        <table id="torar">
+            <thead>
+
+                <tr>
+                    <th>Zi</th>
+                    <th>Program de dimineata</th>
+                    <th>Pauza de masa</th>
+                    <th>Program de seară</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Luni</td>
+                    <td>10-14</td>
+                    <td>14-16</td>
+                    <td>16-20</td>
+                </tr>
+                <tr>
+                    <td>Marti</td>
+                    <td>9-12</td>
+                    <td>12-14</td>
+                    <td>14-21</td>
+                <tr>
+                    <td>Miercuri</td>
+                    <td>9-11</td>
+                    <td>11-13</td>
+                    <td>14-21</td>
+                <tr>
+                    <td>Joi</td>
+                    <td>9-11</td>
+                    <td>11-13</td>
+                    <td>14-21</td>
+                </tr>
+                <tr>
+                    <td>Vineri</td>
+                    <td>9-12</td>
+                    <td>12-14</td>
+                    <td>14-19</td>
+                </tr>
+                <tr>
+                    <td>Sambata</td>
+                    <td>10-12</td>
+                    <td>12-13</td>
+                    <td>13-16</td>
+                </tr>
+                <tr>
+                    <td>Duminica</td>
+                    <td>10-14</td>
+                    <td>-</td>
+                    <td>inchis</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="5" style="text-align:center;">Se pot efectua schimbari in orar in functie de doctor</td>
+              </tr>
+            </tfoot>
+        </table>
+        </div>
+        <div class="mobile">
+
+
+        <table id="torar2">
+            <thead>
+
+                <tr>
+                    <th>Zi</th>
+                    <th>Program de dimineata</th>
+                    <th>Pauza de masa</th>
+                    <th>Program de seară</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Luni</td>
+                    <td>10-15</td>
+                    <td>15-16</td>
+                    <td>16-20</td>
+                </tr>
+                <tr>
+                    <td>Marti</td>
+                    <td>9-12</td>
+                    <td>12-14</td>
+                    <td>14-21</td>
+                <tr>
+                    <td>Miercuri</td>
+                    <td>9-11</td>
+                    <td>11-13</td>
+                    <td>14-21</td>
+                <tr>
+                    <td>Joi</td>
+                    <td>9-11</td>
+                    <td>11-13</td>
+                    <td>14-21</td>
+                </tr>
+                <tr>
+                    <td>Vineri</td>
+                    <td>9-12</td>
+                    <td>12-14</td>
+                    <td>14-19</td>
+                </tr>
+                <tr>
+                    <td>Sambata</td>
+                    <td>10-12</td>
+                    <td>12-13</td>
+                    <td>13-16</td>
+                </tr>
+                <tr>
+                    <td>Duminica</td>
+                    <td>10-14</td>
+                    <td>-</td>
+                    <td>inchis</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="5" style="text-align:center;">Se pot efectua schimbari in orar in functie de doctor</td>
+              </tr>
+            </tfoot>
+        </table>
+        </div>
+
+        <div class="mobile">
+        <table id="torar3">
+            <thead>
+
+                <tr>
+                    <th>Zi</th>
+                    <th>Program de dimineata</th>
+                    <th>Pauza de masa</th>
+                    <th>Program de seară</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Luni</td>
+                    <td>10-14</td>
+                    <td>14-16</td>
+                    <td>16-20</td>
+                </tr>
+                <tr>
+                    <td>Marti</td>
+                    <td>9-12</td>
+                    <td>12-14</td>
+                    <td>14-21</td>
+                <tr>
+                    <td>Miercuri</td>
+                    <td>9-11</td>
+                    <td>11-13</td>
+                    <td>14-21</td>
+                <tr>
+                    <td>Joi</td>
+                    <td>9-11</td>
+                    <td>11-13</td>
+                    <td>14-21</td>
+                </tr>
+                <tr>
+                    <td>Vineri</td>
+                    <td>9-12</td>
+                    <td>12-14</td>
+                    <td>14-19</td>
+                </tr>
+                <tr>
+                    <td>Sambata</td>
+                    <td>10-12</td>
+                    <td>12-13</td>
+                    <td>13-16</td>
+                </tr>
+                <tr>
+                    <td>Duminica</td>
+                    <td>10-14</td>
+                    <td>-</td>
+                    <td>inchis</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="5" style="text-align:center;">Se pot efectua schimbari in orar in functie de doctor</td>
+              </tr>
+            </tfoot>
+        </table>
+        </div>
+    </section>
+  </section>
+
+  <section id="zona3">
+    <h2>Calendarul de evenimente</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </section>
+
+  <section id="zona4">
+    <h2>Anunțuri</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </section>
+
+  <section id="zona5">
+    <h2>Utilizatori online</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </section>
+
+  <section id="zona6">
+    <h2>Date despre utilizatori si statistici</h2>
+    <p id="ip"><%- locals.ip %></p>
+  </section>
+
+  <section id="zona7">
+    <h2>Date despre site si server</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </section>
+
+<section id="zona8">
+
+  <section id="locatie">
+    <h3 id="Locatie">Locatie</h3>
+    <iframe id="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.919689440684!2d26.19984696007659!3d44.41429369205851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1fc126d691d3b%3A0x711d5c39e34201cb!2sDrumul%20Gura%20Arie%C8%99ului%2037%2C%20Bucure%C8%99ti%20032605!5e0!3m2!1sro!2sro!4v1615726363470!5m2!1sro!2sro" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <section id="index-intrebari">
+    <h3 id="RCN">RCN</h3>
+    <details>
+    <summary>Cadre medicale eficiente, care acorda grija maxima clinetiilor, acord 5&#42;. As dori sa aflu mai multe detalii
+      despre plantele medicinale de care dispuneti. Alexandra Drumas</summary>
+      <p>
+        <a href="https://www.libertatea.ro/lifestyle/plante-medicinale-miraculoase-care-se-gasesc-in-romania-3059460" target="_blank">Puteti
+        citi mai multe detalii pe acest site.</a>
+        Va atasez si un video sugestiv.
+      </p>
+      <div class="flexbox">
+        <iframe id="videouri" name= "ifr1" width="560" height="315" src="https://www.youtube.com/embed/MYsdIRr95Ak" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div>
+          <a target= "ifr1" href="https://www.youtube.com/embed/MYsdIRr95Ak">video1</a>
+          <a target= "ifr1" href="https://www.youtube.com/embed/QoLGGXQIrtY">video2</a>
+        </div>
+
+      </div>
+
+    </details>
+    <details>
+      <summary>Clinica curata, bine organizata, acord 5	&#42; pentru serviciile oferite. Andrei Truman  </summary>
+      <p>
+        Va mulțumim pentru ca sunteti clientul nostru si dorim sa va oferim in continuare cele mai bune servicii;
+      </p>
+    </details>
+  </section>
+  <!-- galerie statica -->
+  <section id="galerie_s">
+    <%- include('../partial/galerie_statica') %>
+   </section>
+  <!-- galerie animata -->
+  <section id="galerie_a">
+      <h3>Galerie Animata</h3>
+      <div id="galerie_animata" class="galerie_animata">
+        <%  for(let imag of locals.imagini){ %>
+
+            <figure id="figura_a">
+              <picture>
+                <img src="<%- imag.mare %>" alt="text" id="poza">
+              </picture>
+              <figcaption><%- imag.titlu %></figcaption>
+            </figure>
+
+        <% } %>
+      </div>
+  </section>
+</section>
+
+
+
+</main>
+
+<footer>
+  <%- include('../partial/footer') %>
+</footer>
+
+<a  href="#inceput" id="buton_inceput">
+  <div id="triunghi"></div>
+  <span class="tooltiptext">Intoarceti-va la inceput</span><br>
+</a>
+<div id="banner">DISCLAIMER:Acesta este un proiect scolar!</div>
+<!-- watermark -->
+<div id="watermark">Dima Alexandru</div>
+<!-- <script>
+  var b1 = document.getElementById("btn1")
+  b1.addEventListener("click",(e)=>
+  {
+    x = document.getElementById('orar')
+    x.innerHTML = ""
+    x.insertAdjacentHTML("beforeend",document.getElementById('torar').innerHTML)
+  }
+  )
+  var b2 = document.getElementById("btn2")
+  b2.addEventListener("click",(e)=>
+  {
+    x = document.getElementById('orar')
+    x.innerHTML = ""
+    x.insertAdjacentHTML = document.getElementById('torar2').innerHTML
+  }
+  )
+</script> -->
+
+</body>
+</html>
